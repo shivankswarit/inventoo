@@ -31,7 +31,3 @@ Contributions are welcome! Fork the repo and submit a pull request.
 License
 
 MIT License
-
-This is **short, clean, and professional**—perfect for GitHub or portfolio display.  
-
-If you want, I can also make a **slightly fancier version with badges, screenshots, and links** without making it too long. Do you want that?
