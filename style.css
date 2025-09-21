@@ -136,6 +136,7 @@ nav a{
 }
 nav a:hover{background:rgba(45,199,199,0.09);color:var(--primary);transform:translateY(-2px)}
 
+
 .nav-actions{
     display:flex;
     align-items:center;
@@ -473,7 +474,7 @@ body.sidebar-mode nav .nav-icon {
 }
 
 .sidebar-mode .nav-actions{
-  margin-top: 12px;      
+  margin-top: 12px;       
   width: 100%;
   padding-bottom: 8px;
   z-index: 6;            
@@ -482,4 +483,14 @@ body.sidebar-mode nav .nav-icon {
 .sidebar-mode .nav-search input{
   width: calc(100% - 8px);
   padding:10px 12px;
+}
+
+/* Added for smooth button animations on primary and secondary buttons */
+.button-primary,
+.button-secondary {
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease !important;
+}
+.button-primary:hover,
+.button-secondary:hover {
+  transition-duration: 0.18s !important;
 }
